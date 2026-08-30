@@ -7,3 +7,7 @@ __pycache__
 .mypy_cache
 .DS_Store
 .env
+
+
+def test_simulation_failure():
+    assert False, 'Injected Failure'
